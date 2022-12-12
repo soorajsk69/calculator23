@@ -20,7 +20,7 @@ p {
 
 #screen {
     background-color: rgb(147, 138, 138);
-    height: 80px;
+    height: 60px;
     width: 440px;
     margin: 5px;
     font-size: 4rem;
@@ -31,7 +31,7 @@ p {
     background-color: black;
     color: white;
     width: 92px;
-    height: 70px;
+    height: 58px;
     font-size: 2.5rem;
     margin: 10px;
     border-radius: 15px;
