@@ -1,0 +1,17 @@
+slice(starting index,ending index)
+s.slice(0,2)
+
+
+local storage
+-------------
+-to store datas permenently but storage capacity is very low
+store/update
+localStorage.setElement()
+
+access
+
+localStorage.getElement()
+
+remove
+
+localStorage.removeElement()

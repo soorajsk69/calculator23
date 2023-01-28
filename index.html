@@ -17,35 +17,37 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
             <div class="col-md-12">
                 <form action="#" name="calculator" class="main">
-                    <input type="text" class="display form-control" name-="display" id="display"><br>
-                    <input type="button" class="btn " value="c">
-                    <input type="button" class="btn ms-3" value="->">
-                    <input type="button" class="btn ms-3" value="%">
-                    <input type="button" class="btn ms-3" value="/"><br><br>
-                    <input type="button" class="btn " value="7">
-                    <input type="button" class="btn  ms-3" value="8">
-                    <input type="button" class="btn  ms-3" value="9">
-                    <input type="button" class="btn  ms-3" value="*"><br><br>
-                    <input type="button" class="btn " value="6">
-                    <input type="button" class="btn  ms-3" value="5">
-                    <input type="button" class="btn  ms-3" value="4">
-                    <input type="button" class="btn  ms-3" value="-"><br><br>
-                    <input type="button" class="btn " value="3">
-                    <input type="button" class="btn  ms-3" value="2">
-                    <input type="button" class="btn  ms-3" value="1">
-                    <input type="button" class="btn  ms-3" value="+"><br><br>
-                    <input type="button" class="btn " value="0">
-                    <input type="button" class="btn ms-3" value="00">
-                    <input type="button" class="btn ms-3" value=".">
-                    <input type="button" class="btn ms-3" value="=">
+                    <input id='result' onclick="" type="text" class="display form-control" name-="display" id="display"><br>
+                    <input type="button" onclick="allclear()" class="btn " value="c">
+                    <input type="button" onclick="space()" class="btn ms-3" value="->">
+                    <input type="button" onclick="displaydata('%')" class="btn ms-3" value="%">
+                    <input type="button" onclick="displaydata('/')" class="btn ms-3" value="/"><br><br>
+                    <input type="button" onclick="displaydata(7)" class="btn " value="7">
+                    <input type="button" onclick="displaydata(8)" class="btn  ms-3" value="8">
+                    <input type="button" onclick="displaydata(9)" class="btn  ms-3" value="9">
+                    <input type="button" onclick="displaydata('*')" class="btn  ms-3" value="*"><br><br>
+                    <input type="button" onclick="displaydata(6)" class="btn " value="6">
+                    <input type="button" onclick="displaydata(5)" class="btn  ms-3" value="5">
+                    <input type="button" onclick="displaydata(4)" class="btn  ms-3" value="4">
+                    <input type="button" onclick="displaydata('-')" class="btn  ms-3" value="-"><br><br>
+                    <input type="button" onclick="displaydata(3)" class="btn " value="3">
+                    <input type="button" onclick="displaydata(2)" class="btn  ms-3" value="2">
+                    <input type="button" onclick="displaydata(1)" class="btn  ms-3" value="1">
+                    <input type="button" onclick="displaydata('+')" class="btn  ms-3" value="+"><br><br>
+                    <input type="button" onclick="displaydata(0)" class="btn " value="0">
+                    <input type="button" onclick="displaydata(00)" class="btn ms-3" value="00">
+                    <input type="button" onclick="displaydata('.')" class="btn ms-3" value=".">
+                    <input type="button" onclick="equal()"class="btn ms-3" value="=">
 
                 </form>
             </div>
         </div>
     </div>
 </body>
+<script src="./cal.js"></script>
+
 </html>
