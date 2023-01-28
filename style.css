@@ -1,4 +1,5 @@
 .main{
+
     background-color:rgb(19, 18, 20);
     color: aliceblue;
     height: auto;
@@ -9,6 +10,8 @@
     margin: auto;
 }
 .btn{
+    padding: 5px;
+    text-align: center;
     height: auto;
     width: 40px;
     background-color: rgb(46, 83, 83);
